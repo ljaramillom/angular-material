@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-material7';
+
+  albumsId = ['albumId1', 'albumId2', 'albumId3'];
+
+  constructor() {}
+
+
 }
